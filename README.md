@@ -12,11 +12,10 @@ En la presente tarea se analizan los resultados de contagio del dengue para las 
 | ano          | int64  | Año                                     |                                           |
 | semana       | int64  | Semana de inicio de síntomas            |                                           |
 | sexo         | object | Sexo                                    | M = Masculino, F = Femenino               |
-| edad         | int64 | Edad del paciente                       |                                           |
-| enfermedad   | category | Diagnóstico vigilado                    |                                           |
-| caso         | int64 | Tipo de diagnóstico                     | SIN_SEÑALES, ALARMA, GRAVE                |
+| edad_grupos         | int64 | Edad del paciente                |   a_menor_a_16,b_entre_16y50,c_mayor_a_50    |
+| enfermedad_text         | int64 | Tipo de diagnóstico          | SIN_SEÑALES, ALARMA, GRAVE                |
 
-Para fines de la actividad, la variable "caso" ha sido recodificada como:
+Para fines de la actividad, la variable "enfermedad_tex" ha sido recodificada como:
 - SIN_SEÑALES':'1_SIN_SEÑALES'
 - 'ALARMA':'2_ALARMA'
 - 'GRAVE':'3_GRAVE'
