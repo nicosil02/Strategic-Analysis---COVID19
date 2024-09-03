@@ -6,15 +6,15 @@ En la presente tarea se analizan los resultados de contagio del dengue para las 
 
 | Variable     | Tipo    | Denominación                            | Valores                               |
 |--------------|----------|-----------------------------------------|-------------------------------------------|
-| departamento | Caracter | Región geográfica                       |                                           |
-| provincia    | Caracter | Provincia                               |                                           |
-| distrito     | Caracter | Lugar probable de infección             |                                           |
-| ano          | Integer  | Año                                     |                                           |
-| semana       | Integer  | Semana de inicio de síntomas            |                                           |
-| sexo         | Caracter | Sexo                                    | M = Masculino, F = Femenino               |
-| edad         | Caracter | Edad del paciente                       |                                           |
-| enfermedad   | Caracter | Diagnóstico vigilado                    |                                           |
-| caso         | Caracter | Tipo de diagnóstico                     | SIN_SEÑALES, ALARMA, GRAVE                |
+| departamento | object| Región geográfica                       |                                           |
+| provincia    | object | Provincia                               |                                           |
+| distrito     | object | Lugar probable de infección             |                                           |
+| ano          | int64  | Año                                     |                                           |
+| semana       | int64  | Semana de inicio de síntomas            |                                           |
+| sexo         | object | Sexo                                    | M = Masculino, F = Femenino               |
+| edad         | int64 | Edad del paciente                       |                                           |
+| enfermedad   | category | Diagnóstico vigilado                    |                                           |
+| caso         | int64 | Tipo de diagnóstico                     | SIN_SEÑALES, ALARMA, GRAVE                |
 
 Para fines de la actividad, la variable "caso" ha sido recodificada como:
 - SIN_SEÑALES':'1_SIN_SEÑALES'
