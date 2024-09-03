@@ -4,20 +4,25 @@ En la presente tarea se analizan los resultados de contagio del dengue para las 
 
 ### Diccionario de datos 
 
-| Variable   | Tipo     | Denominación                            | VALORES                                   |
-|------------|----------|-----------------------------------------|-------------------------------------------|
-| departamento | Caracter | Región geográfica                      |                                           |
-| provincia     | Caracter | Provincia                               |                                           |
-| distrito      | Caracter | Lugar probable de infección            |                                           |
-| enfermedad    | Caracter | Diagnóstico vigilado                    |                                           |
-| ano           | Integer  | Año                                     |                                           |
-| semana        | Integer  | Semana de inicio de síntomas           |                                           |
-| diagnostic     | Caracter | CIE 10                                 |                                           |
-| tipo_dx       | Caracter | Tipo de diagnóstico                    | C = Confirmado, P = Probable, S = Sospechoso |
-| diresa        | Caracter | Dirección de salud que notifica        |                                           |
-| ubigeo        | Caracter | Código del lugar probable de infección |                                           |
-| edad          | Caracter | Edad del paciente                      |                                           |
-| tipo_edad     | Caracter | Tipo de edad del paciente              | A = Año, M = Mes, D = Días                  |
-| sexo          | Caracter | Sexo                                   | M = Masculino, F = Femenino                 |
+| Variable     | Tipo    | Denominación                            | Valores                               |
+|--------------|----------|-----------------------------------------|-------------------------------------------|
+| departamento | Caracter | Región geográfica                       |                                           |
+| provincia    | Caracter | Provincia                               |                                           |
+| distrito     | Caracter | Lugar probable de infección             |                                           |
+| ano          | Integer  | Año                                     |                                           |
+| semana       | Integer  | Semana de inicio de síntomas            |                                           |
+| sexo         | Caracter | Sexo                                    | M = Masculino, F = Femenino               |
+| edad         | Caracter | Edad del paciente                       |                                           |
+| enfermedad   | Caracter | Diagnóstico vigilado                    |                                           |
+| caso         | Caracter | Tipo de diagnóstico                     | SIN_SEÑALES, ALARMA, GRAVE                |
+
+Para fines de la actividad, la variable "caso" ha sido recodificada como:
+- SIN_SEÑALES':'1_SIN_SEÑALES'
+- 'ALARMA':'2_ALARMA'
+- 'GRAVE':'3_GRAVE'
+
+----------------------------------------------------------------------------------------------------------------
+### Enlace a la tarea
+https://nicosil02.github.io/
 
 
