@@ -1,6 +1,6 @@
 # Tarea 1 🤖
 ### Alumno: Nicolas Silva Andujar (20200832)
-En la presente tarea se analizan los resultados de contagio del dengue para las semanas del 2016. La información corresponde al potal "Datos Abiertos" del Gobierno del Perú.
+En la presente tarea se analizan los resultados de contagio del dengue para las semanas del 2016. La información corresponde al portal "Datos Abiertos" del Gobierno del Perú.
 
 ### Diccionario de datos 
 
