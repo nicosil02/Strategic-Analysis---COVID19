@@ -22,7 +22,7 @@ Para fines de la actividad, la variable "caso" ha sido recodificada como:
 - 'GRAVE':'3_GRAVE'
 
 ----------------------------------------------------------------------------------------------------------------
-### Enlace a la tarea
+### Enlace a la tarea 👾
 https://nicosil02.github.io/
 
 
